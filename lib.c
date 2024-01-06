@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-void __attribute__((constructor)) constructor(){
+__attribute__((constructor))
+void constructor(){
 	printf("constructor called\n");
 }
 
-void __attribute__((destructor)) destructor(){
+__attribute__((destructor))
+void destructor(){
 	printf("destructor called\n");
 }

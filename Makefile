@@ -13,4 +13,4 @@ run: build
 	@./gcc-c-d
 
 clean:
-	@rm gcc-c-d
+	@rm -rf gcc-c-d *.o
